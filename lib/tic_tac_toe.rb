@@ -1,4 +1,6 @@
 # Define your WIN_COMBINATIONS constant
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 WIN_COMBINATIONS = [
 [0,1,2], #Top_row
 [3,4,5], #Middle_row

@@ -129,8 +129,6 @@ end
     if valid_move?(board, index)
       move(board, index, user_input = "X")
       display_board(board)
-    else
-      turn(board)
     end
      until over?(board)
         turn(board)

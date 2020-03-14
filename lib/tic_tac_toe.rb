@@ -123,9 +123,7 @@ end
 
 #play_method
   def play(board)
-    puts "Please enter 1-9:"
-    user_input = gets.strip
-     until over?(board)
+    until over?(board)
         turn(board)
      end
      if won?(board)
